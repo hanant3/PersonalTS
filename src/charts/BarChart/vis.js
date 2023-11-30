@@ -27,11 +27,10 @@ const draw = (props) => {
             .attr('height',height + margin.top + margin.bottom)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
     // // format the data
     // data.forEach(function(d) {
     //     d.age = +d.age;
-    // });
+
 
     // Scale the range of the data in the domains
     let x = d3.scaleBand()
