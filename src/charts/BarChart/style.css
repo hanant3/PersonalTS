@@ -1,3 +1,15 @@
 .dot { 
     fill: rgb(16, 90, 151); 
 }
+
+.tooltip {
+    background-color: white;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute; /* Very important for positioning */
+    pointer-events: none; /* So it doesn't interfere with mouse events */
+    opacity: 0; /* Start invisible, transition to visible on hover */
+    transition: opacity 0.3s; /* Smooth transition for the tooltip */
+    z-index: 10; /* Ensure it's on top of other elements */
+}

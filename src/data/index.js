@@ -3,6 +3,7 @@ const data = [
         'name': 'Bob',
         'gender': 'Male',
         'age': 26,
+        'status': 'employed',
         'activities': [
             { "date": "2018-10-2", "count": 56 },
             { "date": "2018-10-3", "count": 55 },
@@ -23,6 +24,7 @@ const data = [
     {   'name': 'Sarah',
         'gender': 'Female',
         'age': 56,
+        'status': 'uemployed',
         'activities': [
             {'date': '2018-10-02', 'count': 26},
             {'date': '2018-10-03', 'count': 72},
@@ -43,6 +45,7 @@ const data = [
     {   'name': 'Michael',
         'gender': 'Male',
         'age': 45,
+        'status': 'employed',
         'activities': [
             {'date': '2018-10-02', 'count': 49},
             {'date': '2018-10-03', 'count': 63},
@@ -62,6 +65,7 @@ const data = [
     {   'name': 'Alice',
         'gender': 'Other',
         'age': 37,
+        'status': 'employed',
         'activities': [
             {'date': '2018-10-02', 'count': 71},
             {'date': '2018-10-03', 'count': 21},
@@ -81,7 +85,8 @@ const data = [
     {   'name': 'John',
         'gender': 'Male',
         'age': 23,
-    'activities': [
+        'status': 'unemployed',
+        'activities': [
             {'date': '2018-10-02', 'count': 14},
             {'date': '2018-10-03', 'count': 76},
             {'date': '2018-10-04', 'count': 70},
@@ -100,6 +105,7 @@ const data = [
     {   'name': 'Tonya',
         'gender': 'Female',
         'age': 45,
+        'status': 'unemployed',
         'activities': [
             {'date': '2018-10-02', 'count': 47},
             {'date': '2018-10-03', 'count': 48},
@@ -119,6 +125,7 @@ const data = [
     {   'name': 'Sean',
         'gender': 'Other',
         'age': 45,
+        'status': 'employed',
         'activities': [
             {'date': '2018-10-02', 'count': 32},
             {'date': '2018-10-03', 'count': 68},
@@ -138,6 +145,7 @@ const data = [
     {   'name': 'Kart',
         'gender': 'Other',
         'age': 38,
+        'status': 'unemployed',
         'activities': [
             {'date': '2018-10-02', 'count': 58},
             {'date': '2018-10-03', 'count': 70},
@@ -157,6 +165,7 @@ const data = [
     {   'name': 'Amy',
         'gender': 'Female',
         'age': 26,
+        'status': 'unemployed',
         'activities': [{'date': '2018-10-02', 'count': 70},
             {'date': '2018-10-03', 'count': 35},
             {'date': '2018-10-04', 'count': 30},
@@ -175,6 +184,7 @@ const data = [
     {   'name': 'Chris',
         'gender': 'Other',
         'age': 26,
+        'status': 'unemployed',
         'activities': [{'date': '2018-10-02', 'count': 75},
             {'date': '2018-10-03', 'count': 48},
             {'date': '2018-10-04', 'count': 46},
@@ -194,6 +204,7 @@ const data = [
         'name': 'Tim',
         'gender': 'Male',
         'age': 30,
+        'status': 'unemployed',
         'activities': [
             { "date": "2018-10-2", "count": 56 },
             { "date": "2018-10-3", "count": 41 },
@@ -215,6 +226,7 @@ const data = [
         'name': 'Robin',
         'gender': 'Male',
         'age': 12,
+        'status': 'unemployed',
         'activities': [
             { "date": "2018-10-2", "count": 31 },
             { "date": "2018-10-3", "count": 76 },
@@ -236,6 +248,7 @@ const data = [
         'name': 'Anne',
         'gender': 'Female',
         'age': 41,
+        'status': 'employed',
         'activities': [
             { "date": "2018-10-2", "count": 31 },
             { "date": "2018-10-3", "count": 76 },
@@ -257,6 +270,7 @@ const data = [
         'name': 'Mark',
         'gender': 'Male',
         'age': 16,
+        'status': 'unemployed',
         'activities': [
             { "date": "2018-10-2", "count": 66 },
             { "date": "2018-10-3", "count": 10 },
@@ -278,6 +292,7 @@ const data = [
         'name': 'Joe',
         'gender': 'Male',
         'age': 59,
+        'status': 'employed',
         'activities': [
             { "date": "2018-10-2", "count": 17 },
             { "date": "2018-10-3", "count": 22 },
@@ -299,6 +314,7 @@ const data = [
         'name': 'Eve',
         'gender': 'Female',
         'age': 38,
+        'status': 'employed',
         'activities': [
             { "date": "2018-10-2", "count": 3 },
             { "date": "2018-10-3", "count": 16 },
@@ -320,6 +336,7 @@ const data = [
         'name': 'Karen',
         'gender': 'Female',
         'age': 21,
+        'status': 'unmployed',
         'activities': [
             { "date": "2018-10-2", "count": 74 },
             { "date": "2018-10-3", "count": 99 },
@@ -341,6 +358,7 @@ const data = [
         'name': 'Kirsty',
         'gender': 'Unknown',
         'age': 25,
+        'status': 'unemployed',
         'activities': [
             { "date": "2018-10-2", "count": 5 },
             { "date": "2018-10-3", "count": 99 },
@@ -362,6 +380,7 @@ const data = [
         'name': 'Chris',
         'gender': 'Female',
         'age': 30,
+        'status': 'employed',
         'activities': [
             { "date": "2018-10-2", "count": 77 },
             { "date": "2018-10-3", "count": 28 },
@@ -383,6 +402,7 @@ const data = [
         'name': 'Lisa',
         'gender': 'Female',
         'age': 47,
+        'status': 'employed',
         'activities': [
             { "date": "2018-10-2", "count": 95 },
             { "date": "2018-10-3", "count": 66 },
@@ -404,6 +424,7 @@ const data = [
         'name': 'Tom',
         'gender': 'Male',
         'age': 15,
+        'status': 'unemployed',
         'activities': [
             { "date": "2018-10-2", "count": 21 },
             { "date": "2018-10-3", "count": 88 },
@@ -425,6 +446,7 @@ const data = [
         'name': 'Stacy',
         'gender': 'Unknown',
         'age': 20,
+        'status': 'employed',
         'activities': [
             { "date": "2018-10-2", "count": 56 },
             { "date": "2018-10-3", "count": 98 },
@@ -446,6 +468,7 @@ const data = [
         'name': 'Charles',
         'gender': 'Male',
         'age': 13,
+        'status': 'unemployed',
         'activities': [
             { "date": "2018-10-2", "count": 98 },
             { "date": "2018-10-3", "count": 10 },
@@ -467,6 +490,7 @@ const data = [
         'name': 'Mary',
         'gender': 'Female',
         'age': 29,
+        'status': 'employed',
         'activities': [
             { "date": "2018-10-2", "count": 53 },
             { "date": "2018-10-3", "count": 20 },
