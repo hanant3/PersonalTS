@@ -10,7 +10,6 @@ export default class View4 extends Component {
         return (
             <div id='view4' className='pane' >
                 <div className='header'>TIME-SERIES ANALYSIS</div>
-                <div style={{ overflowX: 'scroll',overflowY:'hidden' }}>
                     <LineChart data={user} width={width} height={height} xLabel="X-axis Label" yLabel="Y-axis Label"/>
                 </div>
             </div>

@@ -8,6 +8,7 @@ const draw = (props) => {
     }
     d3.select('.vis-linechart > *').remove();
     let margin = { top: 20, right: 20, bottom: 50, left: 55 }
+
     const width = props.width - margin.left - margin.right;;
     const height = props.height - margin.top - margin.bottom;
     let svg = d3.select(".vis-linechart")

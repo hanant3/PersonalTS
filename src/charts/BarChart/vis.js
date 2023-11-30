@@ -6,18 +6,15 @@ const draw = (props) => {
     const data = props.data;
     const margin = {top: 20, right: 20, bottom: 30, left: 40};
     const width = props.width - margin.left - margin.right;
-    const height = props.height - margin.top - margin.bottom;
-    
     let svg = d3.select('.vis-barchart').append('svg')
             .attr('width',width + margin.left + margin.right)
             .attr('height',height + margin.top + margin.bottom)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
     // // format the data
     // data.forEach(function(d) {
     //     d.age = +d.age;
-    // });
+
 
     // Scale the range of the data in the domains
     let x = d3.scaleBand()
