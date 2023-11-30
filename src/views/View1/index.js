@@ -14,7 +14,7 @@ export default class View1 extends Component {
         }
         return (
             <div id='view1' className='pane'>
-                <div className='header'>USER DATA</div>
+                <div className='header'>USER-DATA</div>
                 <div>
                     <div className={'info-view'}>
                         <div>gender: {user.gender}</div>

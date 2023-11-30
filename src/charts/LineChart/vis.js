@@ -7,7 +7,7 @@ const draw = (props) => {
         data = _.cloneDeep(props.data.activities);
     }
     d3.select('.vis-linechart > *').remove();
-    let margin = { top: 20, right: 20, bottom: 30, left: 40 }
+    let margin = { top: 20, right: 20, bottom: 50, left: 55 }
     const width = props.width - margin.left - margin.right;;
     const height = props.height - margin.top - margin.bottom;
     let svg = d3.select(".vis-linechart")
@@ -48,6 +48,20 @@ const draw = (props) => {
             .x(function (d) { return x(d.date) })
             .y(function (d) { return y(d.count) })
         )
+    
+    //Append the X and Y labels
+    svg.append("text")
+        .attr("text-anchor", "end")
+        .attr("x", width /3 + margin.left)
+        .attr("y", height + margin.top + 20)
+        .text("Time line");
+
+    svg.append("text")
+        .attr("text-anchor", "end")
+        .attr("transform", "rotate(-90)")
+        .attr("y", -margin.left + 20)
+        .attr("x", -height /3 )
+        .text("Mental Health Index");
 }
 
 export default draw;
